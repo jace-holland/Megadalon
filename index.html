@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Megalos Oil Company</title>
+  <link rel="shortcut icon" href="img/logo_oil.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="free/fonts/basic/boxicons.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+
+  <!-- Nigga this is the navigation bar -->
+   <nav class="nav">
+    <div class="logo">
+      <img src="img/logo_oil.jpeg" alt="logo">
+    </div>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn support">Support</a>
+    <div class="nav__menu">
+    <i id="menu" class="bx bx-menu"></i>
+    </div>
+   </nav>
+
+  <!-- HERO SECTION with video -->
+  <section class="home">
+    <div class="overlay">
+      <video autoplay muted loop class="bg-video">
+        <source src="img/oil.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="home__container">
+      <div class="introduction__text">
+        <h1 class="introduction__header fade-up">Megalos Oil Company</h1>
+        <h2 class="introduction__sub fade-up">Fueling progress, Energizing tomorrow</h2>
+        <p class="fade-up">Empowering progress, one drop at a time.</p>
+        <a href="#" class="btn learn slide-in-left">Learn more</a>
+
+        <!-- counter section -->
+        <div class="stats">
+          <div class="stat">
+            <span class="counter" data-target="558">0</span>
+            <p class="slide-in-left">Active Wells</p>
+          </div>
+          <div class="stat">
+              <span class="counter" data-target="130">0</span>
+              <p class="slide-in-left">Years in Operation</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- new ticker/banner -->
+        <div class="news-ticker">
+          <span>CRUDE OIL PRICE: $85.42/barrel ▲1.2%</span>
+          <span>|</span>
+          <span>New offshore rig launched in Angola</span>
+        </div>
+      
+      <div class="popup">
+        <div class="popup__img fade-up">
+          <img src="img/engineers.jpg" alt="">
+        </div>
+        <div class="popup__container">
+          <div class="popup__icon">
+            <i class="bx bx-x" id="close_btn"></i>
+          </div>
+          <div class="popup__menu fade-up">
+            <h2>Power, Progress, Fueling the Future</h2>
+          </div>
+          <div class="popup__text fade-up">
+            <p>At Megadolis Oil, we believe the energy should do more than power engines - <br>
+            It should drive transformation. Our misssion is to develop faster, smarter <br>
+            and cleaner oil solutions that move industries forward without leaving the<br>
+            planet behind. From cutting-edge refining techniques to sustainable sourcing,<br>
+            we' re building a future where oil is not just fuel - it's a force of innovation. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   
+  </section>
+  
+
+
+  <!-- Scroll up button -->
+  <button id="scrollTopBtn"><i class="bx bxs-arrow-up"></i></button>
+
+<footer class="footer">
+  <div class="footer__container">
+      <h1 class="footer__header">Megalon Oil Company</h1>
+      <div class="footer__links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contacts</a>
+      </div>
+      <div class="footer__icons">
+          <i class="bx bx-home"></i>
+          <i class="bx bx-beach"></i>
+          <i class="bx bx-box"></i>
+          <i class="bx bx-message"></i>
+      </div>
+      <h3 class="copyright">Copyright @ Megalon Oil - All rights reserved 
+      </h3>
+  </div>
+</footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
